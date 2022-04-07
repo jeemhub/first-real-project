@@ -33,4 +33,45 @@ body {
     height: 10%;
     background: #FBE4CA;
     border-radius: 20px;
+    position: relative;
+}
+.refusal-btn{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 23px;
+    position: absolute;
+    left: 25px;
+    top:23%;
+    
+}
+.accept-btn{
+    cursor: pointer;
+    font-size: 20px;
+    background: #6Bee3d;
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    left: 85px;
+    top:16%;
+    border: none;
+    border-radius: 20px;
+    color: #443845;
+}
+.name-item{
+    text-decoration: none;
+    color: #443845;
+    position: absolute;
+    font-size: 23px;
+    top: 20px;
+    right: 20px;
+
+}
+.details{
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 30%;
+    font-size: 20px;
 }
